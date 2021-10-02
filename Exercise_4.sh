@@ -1,8 +1,8 @@
  1) Use the cat command to create a file containing the following data. Call it myfile
-      use tabs to separate the fields.
-      1001 RAM 97
-      1025 ARUN 86
-      1013 RAJU 93
+    use tabs to separate the fields.
+    1001 RAM 97
+    1025 ARUN 86
+    1013 RAJU 93
 
                 cat > myfile
                    1001	RAM	97
