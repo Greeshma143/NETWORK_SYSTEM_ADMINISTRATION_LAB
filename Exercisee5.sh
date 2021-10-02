@@ -1,5 +1,4 @@
-#1) Write a shell script that takes a command line argument and reports on
-  whether it is directory, a file, or something else.
+#1) Write a shell script that takes a command line argument and reports on whether it is directory, a file, or something else.
                           if [ -f $1 ]
                           then
                             echo "It is a file"
@@ -10,10 +9,7 @@
                             echo "Something else"
                           fi
 
-#2) Write a shell script that computes the gross salary of a employee according
-    to the following rules :
-    i) if basic salary is < 1500 then HRA =10% of the basic and DA =90% of the basic.
-    ii) If basic salary is >=1500 then HRA =Rs500 and DA=98% of the basic.
+#2) Write a shell script that computes the gross salary of a employee according to the following rules :i) if basic salary is < 1500 then HRA =10% of the basic and DA =90% of the basic. ii) If basic salary is >=1500 then HRA =Rs500 and DA=98% of the basic.
                           echo "enter the basic salary:"
                           read bsal
                           if [ $bsal -lt 1500 ]
@@ -27,9 +23,7 @@
                           echo "the gross salary : $gsal"
                           fi
 
-#3) Write a shell script that accepts two integers as its arguments and
-    computes the value of first number raised to the power of the second
-    number.
+#3) Write a shell script that accepts two integers as its arguments and computes the value of first number raised to the power of the second number.
                           echo  "First number : ";
                           read no1;
                           echo "";
@@ -45,9 +39,7 @@
                           echo "";
                           echo "$no1 ^ $no2 is : $(($no1 ** $no2))";
 
-#44) Write a shell script which receives two file names as arguments. It should
-    check whether the two file contents are same or not. If they are same thenn
-    second file should be deleted.
+#4) Write a shell script which receives two file names as arguments. It should check whether the two file contents are same or not. If they are same thenn second file should be deleted.
                           echo "Enter first filename"
                           read f1
                           echo "Enter second file name"
