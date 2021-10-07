@@ -1,4 +1,5 @@
-echo "CURRENTLY LOGGED USER"
+echo "CURRENTLY LOGGED USER & LOG IN NAME"
+who
 whoami
 echo "----------------------"
 echo "CURRENT SHELL"
